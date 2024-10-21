@@ -53,6 +53,6 @@ export const createEvent = async (app: FastifyInstance) => {
                 }
             });
 
-            return reply.status(201).send({ eventId: event.id});
+            return reply.status(201).send({ eventId: event.id });
         });
 }
